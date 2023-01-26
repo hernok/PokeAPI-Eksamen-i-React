@@ -25,6 +25,7 @@ html {
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 1fr;
 	gap: 30px;
+	margin: 0 150px 0 150px;
 }
 .load-more-button {
 	width: auto;
@@ -48,7 +49,8 @@ html {
 }
 .pokemon-container:hover {
 	cursor: pointer;
-	border: yellow solid 1px;
+	border: lightskyblue solid 1px;
+	background-color: #1d1d1d;
 }
 .pokemon-container {
 	display: grid;
@@ -87,6 +89,7 @@ html {
 
 .name {
 	font-size: 43px;
+	margin-left: 10px;
 }
 
 .id {

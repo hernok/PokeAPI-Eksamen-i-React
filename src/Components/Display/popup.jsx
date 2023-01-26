@@ -135,6 +135,14 @@ const Popup = ({ open, close, pokemonData }) => {
 								X
 							</button>
 						</div>
+						<div className='popup-image-box'>
+							{/*Hoved bilde i popup*/}
+							<img
+								className='popup-image'
+								src={pokemonData.sprites.front_default}
+								alt={`a picture of the pokemon, ${pokemonData.name}`}
+							/>
+						</div>
 						<p className='popup-id'>ID #{pokemonData.id}</p>
 						<div className='popup-type-div'>
 							{/*Endrer første bokstav i type til uppercase*/}
@@ -158,14 +166,6 @@ const Popup = ({ open, close, pokemonData }) => {
 							</p>
 						</div>
 					</div>
-				</div>
-				<div className='popup-image-box'>
-					{/*Hoved bilde i popup*/}
-					<img
-						className='popup-image'
-						src={pokemonData.sprites.front_default}
-						alt={`a picture of the pokemon, ${pokemonData.name}`}
-					/>
 				</div>
 				{/*Evolutions*/}
 				<div className='popup-evolution-box'>
