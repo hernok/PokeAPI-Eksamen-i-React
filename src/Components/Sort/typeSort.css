@@ -16,8 +16,9 @@
 }
 
 #sort-button:focus {
-	border: yellow solid 5px;
-	background-color: #3a3a3a4f;
+	border-inline: solid yellow 5px;
+	height: auto;
+	background-color: lightcoral;
 }
 
 .button-wrapper {

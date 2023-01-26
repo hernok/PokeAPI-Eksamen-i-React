@@ -44,12 +44,12 @@ html {
 	cursor: pointer;
 }
 .load-more-button:active {
-	border: yellow solid 1px;
+	border-inline: solid yellow 5px;
 	background-color: #2888c46b;
 }
 .pokemon-container:hover {
 	cursor: pointer;
-	border: lightskyblue solid 1px;
+	border: lightskyblue solid 3px;
 	background-color: #1d1d1d;
 }
 .pokemon-container {
@@ -70,7 +70,7 @@ html {
 }
 
 .pokemon-container:active {
-	border: yellow solid 1px;
+	border: yellow solid 3px;
 	background-color: #3a3a3a4f;
 }
 .info-box {

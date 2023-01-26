@@ -23,7 +23,7 @@
 	cursor: pointer;
 }
 #order-button:focus {
-	border: rgb(255, 255, 118) solid 1px;
+	border-inline: solid yellow 5px;
 	background-color: #206d9c;
 	color: rgb(210, 210, 210);
 }
