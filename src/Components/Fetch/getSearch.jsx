@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://pokeapi.co/api/v2';
+const url = 'https://pokeapi.co/api/v2';
 const query = {
 	pokemon: 'pokemon'
 };
