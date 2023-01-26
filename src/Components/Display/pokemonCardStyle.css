@@ -46,6 +46,10 @@ html {
 	border: yellow solid 1px;
 	background-color: #2888c46b;
 }
+.pokemon-container:hover {
+	cursor: pointer;
+	border: yellow solid 1px;
+}
 .pokemon-container {
 	display: grid;
 	grid-template-areas:
