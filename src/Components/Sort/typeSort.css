@@ -1,0 +1,122 @@
+#sort-button {
+	font-family: 'PKMN';
+	font-size: 38px;
+	color: white;
+
+	border: none;
+	height: auto;
+	width: 107px;
+	border-radius: 5px;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+		-1px -1px 0 #000;
+}
+
+#sort-button:hover {
+	cursor: pointer;
+}
+
+#sort-button:focus {
+	border: yellow solid 5px;
+	background-color: #3a3a3a4f;
+}
+
+.button-wrapper {
+	padding: 20px;
+	display: grid;
+	gap: 10px;
+	justify-content: center;
+	grid-auto-rows: minmax(auto, auto);
+	grid-template-areas:
+		'psychic poison dark dragon ghost electric bug fairy flying'
+		'ground steel fight ice grass rock water fire normal';
+}
+
+.sort-psychic {
+	background-color: #f85888;
+	grid-area: psychic;
+}
+
+.sort-poison {
+	background-color: #a040a0;
+	grid-area: poison;
+}
+
+.sort-dark {
+	background-color: #705848;
+	grid-area: dark;
+}
+
+.sort-dragon {
+	background-color: #7038f8;
+	grid-area: dragon;
+}
+
+.sort-ghost {
+	background-color: #705898;
+	grid-area: ghost;
+}
+
+.sort-electric {
+	background-color: #ffd324;
+	grid-area: electric;
+}
+
+.sort-bug {
+	background-color: #a8b820;
+	grid-area: bug;
+}
+
+.sort-fairy {
+	background-color: #d96ede;
+	grid-area: fairy;
+}
+
+.sort-flying {
+	background-color: #a890f0;
+	grid-area: flying;
+}
+
+.sort-ground {
+	background-color: #e0c068;
+	grid-area: ground;
+}
+
+.sort-steel {
+	background-color: #b8b8d0;
+	grid-area: steel;
+}
+
+.sort-fighting {
+	background-color: #c03028;
+	grid-area: fight;
+}
+
+.sort-ice {
+	background-color: #98d8d8;
+	grid-area: ice;
+}
+
+.sort-grass {
+	background-color: #569138;
+	grid-area: grass;
+}
+
+.sort-rock {
+	background-color: #b8a038;
+	grid-area: rock;
+}
+
+.sort-water {
+	background-color: #6890f0;
+	grid-area: water;
+}
+
+.sort-fire {
+	background-color: #f08030;
+	grid-area: fire;
+}
+
+.sort-normal {
+	background-color: #a8a878;
+	grid-area: normal;
+}

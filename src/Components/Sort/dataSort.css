@@ -1,0 +1,41 @@
+.order-wrapper {
+	display: grid;
+	padding: 20px;
+	gap: 10px;
+	justify-content: center;
+	grid-template-areas: '1 2';
+	margin-bottom: 50px;
+}
+#order-button {
+	border: none;
+	width: 107px;
+	height: auto;
+	background: #2888c4;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px black;
+	border-radius: 5px;
+	font-size: 35px;
+	font-family: 'PKMN';
+	margin: 20px;
+}
+#order-button:hover {
+	cursor: pointer;
+}
+#order-button:focus {
+	border: rgb(255, 255, 118) solid 1px;
+	background-color: #206d9c;
+	color: rgb(210, 210, 210);
+}
+.name-asc {
+	grid-area: 'nameasc';
+}
+.name-dsc {
+	grid-area: 'namedsc';
+}
+.id-asc {
+	grid-area: 'idasc';
+}
+.id-dsc {
+	grid-area: 'iddsc';
+}
