@@ -4,16 +4,19 @@
 	justify-content: center;
 	grid-template-columns: 1fr 1fr;
 }
+
 .form-container {
 	display: grid;
 	width: auto;
 	position: relative;
 	margin-left: auto;
 }
+
 .form-button-container {
 	display: grid;
 	margin-right: auto;
 }
+
 .input-search {
 	display: grid;
 	width: 300px;
@@ -25,6 +28,7 @@
 	padding: 0;
 	margin: 0;
 }
+
 .search-button {
 	width: 100px;
 	font-family: 'PKMN';
@@ -35,8 +39,10 @@
 	border: 0;
 	border-radius: 5px;
 }
+
 .input-suggestion-wrapper {
 }
+
 .input-suggestion-container {
 	display: grid;
 	width: auto;
@@ -44,6 +50,7 @@
 	background-color: black;
 	position: absolute;
 }
+
 .input-suggestion {
 	font-size: 30px;
 	text-align: left;

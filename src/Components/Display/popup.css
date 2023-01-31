@@ -6,13 +6,14 @@ html {
 	background-color: #1d1d1d;
 	color: white;
 }
+
 .god-wrapper {
-	width: 70%;
+	width: 45%;
 	display: grid;
 	justify-content: center;
 	background-color: #2e2e2e;
-	border-radius: 200px;
-	border: solid 15px rgb(92, 92, 92);
+	border-radius: 50px;
+	border: solid 7px rgb(92, 92, 92);
 	padding: 0;
 	margin: 0;
 	z-index: 1;
@@ -21,12 +22,14 @@ html {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
 .popup-wrapper {
 	display: grid;
 	width: 100%;
 	height: auto;
 	justify-content: center;
 }
+
 .popup-top-row {
 	display: grid;
 	grid-template-areas: 'a b c';
@@ -39,11 +42,13 @@ html {
 	display: grid;
 	align-self: center;
 }
+
 .popup-image-box {
 	width: auto;
 	height: auto;
 	grid-area: 'i';
 }
+
 .evo-img {
 	width: 100px;
 	bottom: 0;
@@ -70,16 +75,19 @@ html {
 	margin-left: auto;
 	grid-area: 'c';
 }
+
 .popup-info-box {
 	display: grid;
 	height: auto;
 }
+
 .popup-id {
 	font-size: 35px;
 	height: auto;
 	padding: 0;
 	margin: 0;
 }
+
 .popup-name {
 	font-size: 50px;
 	height: auto;
@@ -87,6 +95,7 @@ html {
 	margin: 0;
 	grid-area: 'b';
 }
+
 .popup-type-div {
 	justify-content: center;
 	display: grid;
@@ -96,6 +105,7 @@ html {
 	width: auto;
 	height: 300px;
 }
+
 .popup-evo-name {
 	margin: 10px;
 	height: auto;
@@ -110,6 +120,7 @@ html {
 	margin: 0;
 	height: auto;
 }
+
 .popup-evolution-2 {
 	border: 1px solid white;
 	border-radius: 10px;
@@ -119,6 +130,7 @@ html {
 	margin: 0;
 	height: auto;
 }
+
 .popup-evolution-3 {
 	border: 1px solid white;
 	border-radius: 10px;
@@ -128,6 +140,7 @@ html {
 	margin: 0;
 	height: auto;
 }
+
 #popup-type {
 	width: 125px;
 	height: auto;
